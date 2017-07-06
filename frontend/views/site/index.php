@@ -1,5 +1,10 @@
+<?php
+
+use yii\helpers\Html
+?>
+
 <html>
-<head>    
+<head>
 </head>
 
 <style>
@@ -32,7 +37,7 @@ border: 1px solid #ddd;
 /*Mulai Parallax OM TELOLET*/
 
 .parallax{
-    background:url('Image/yuumei.jpg') repeat;
+    background:url('gambar/yuumei.jpg') repeat;
     background-attachment: fixed;
 }
 .parallax-inner{
@@ -44,18 +49,15 @@ border: 1px solid #ddd;
     </style>
 
 <body>
-    <h1>Space</h1>
+    <h1>Yii2</h1>
     <p1></p1>
 
 <section class="parallax">
     <div class="parallax-inner">
-    <img src=".../gambar/Arsenal.jpg">
+        <h2>Yii2 Advanced</h2>
+    <p>Ternyata susah</p>
 
-
-        <h2>Space</h2>
-    <p>AKU DISINI BRO</p>
-    
-    </div>    
+    </div>
 </section>
 
 <h1>Space</h1>
